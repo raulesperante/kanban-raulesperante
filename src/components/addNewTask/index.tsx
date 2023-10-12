@@ -38,10 +38,10 @@ export default function AddNewTask({ name }: PropsAddNewTask) {
     setShowControl(true);
   }, []);
 
-  const handleTextTask = (e: React.FormEvent<HTMLDivElement>) => {
+  const handleTextTask = React.useCallback((e: React.FormEvent<HTMLDivElement>) => {
     const text: string | null = e.currentTarget.textContent;
     setTextTask(text);
-  };
+  }, []);
 
   return (
     <>
