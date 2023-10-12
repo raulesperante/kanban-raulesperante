@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: white;
+}
+
+.content {
+  background-color: #f5f6f8;
+}
+
+.content-area {
+  padding: 1rem;
+}
+
+.container-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#first-icon {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+:root {
+  --accent: #e63a16;
+}
+
+.color-accent-icon {
+  color: var(--accent);
+}
+
+.btnAddTask {
+  margin: auto !important;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 1rem !important;
+}
+
+.titleColumn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.3rem;
+}
+
+.container {
+  display: flex;
+  height: 800px;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.col {
+  width: 30%;
+  background-color: #fad1c6;
+}
+
+.cardItem {
+  min-height: 4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+  cursor: auto;
+  line-height: 4rem;
+}
+
+.newCard:empty:before {
+  content: "Escribe aquí";
+  color: gray;
+}
+
+.textAddTask {
+  padding-top: 1.3rem;
+  text-align: center;
+  color: #c1523b;
+  font-weight: bold !important;
+  cursor: pointer;
+}
+
