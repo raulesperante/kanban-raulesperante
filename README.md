@@ -1,6 +1,9 @@
 # Tablero Kanban
 ### React + TypeScript + Vite + Vitest
 
+Para la funcionalidad de drag and drop, no se utilizaron librerías de terceros.
+Si no, que se usó la api nativa del navegador. Ya que esto último implica un mayor desafío.
+
 Este proyecto está subido a AWS S3
 con la siguiente url:
 
