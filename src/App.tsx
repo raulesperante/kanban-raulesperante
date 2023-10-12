@@ -42,13 +42,6 @@ function App() {
     [data]
   );
 
-  // const handleDrop = (e: React.DragEvent, name: string) => {
-  //   e.preventDefault();
-  //   const payload = JSON.parse(e.dataTransfer.getData("text"));
-  //   const newData = updateData(data, payload.item, payload.source, name);
-  //   dispatch(setDataCards(newData));
-  // };
-
   return (
     <Grid container className="main">
       <Grid className="sidebar" item xs={1}>
